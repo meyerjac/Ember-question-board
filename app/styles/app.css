@@ -7,3 +7,8 @@ header {
   font-family: monospace;
   font-size: 20px;
 }
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+}
