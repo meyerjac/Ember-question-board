@@ -21,9 +21,9 @@
       <label for="profilePictureURL">profile Picture</label>
       {{input value=profilePictureURL id="profilePictureURL"}}
     </div>
-    <button {{action 'saveQuestion1'}}>Save Question</button>
+    <button class = "btn-sm yo" {{action 'saveQuestion1'}}>Save Question</button>
   </form>
 </div>
 {{else}}
-  <button {{action 'newQuestionFormShow'}}>New Question</button>
+  <button class = "btn-sm yo" {{action 'newQuestionFormShow'}}>New Question</button>
 {{/if}}

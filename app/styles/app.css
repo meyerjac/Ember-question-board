@@ -1,6 +1,26 @@
+body {
+  background-color: #22969d;
+}
+
+a:hover {
+   background-color: #22969d;
+  text-decoration: underline;
+  text-shadow: 10;
+}
 header {
   margin: 10px;
   padding: 10px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+    border-radius: 4px;
+
+}
+
+#compName {
+  font-size: 150px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #235081;
+
 }
 
 .question {
@@ -11,4 +31,18 @@ header {
 img {
   max-width: 200px;
   max-height: 200px;
+}
+
+button:hover {
+    background-color: #235081; /* Green */
+    transition-duration: 0.4s;
+    border: 2px solid green
+}
+
+.well {
+  background-color: 	#d4e5ff
+}
+
+.yo:hover {
+ background-color: red;
 }

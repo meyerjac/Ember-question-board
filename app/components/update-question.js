@@ -7,7 +7,6 @@ export default Ember.Component.extend({
       this.set('updateQuestionForm', true)
     },
     update(question) {
-      console.log("worked");
       var params = {
         author: this.get('author'),
         content: this.get('content'),
