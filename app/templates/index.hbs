@@ -6,6 +6,8 @@
 
 <ul>
   {{#each model as |question|}}
-  <li>{{question.author}} asked this question: <span class= "question"> {{question.content}}</span></li>
+  <div class="well">
+    {{question-tile question=question}}
+  </div>
   {{/each}}
 </ul>

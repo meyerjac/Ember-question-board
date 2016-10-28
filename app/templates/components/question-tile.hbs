@@ -1,0 +1,9 @@
+<li>{{question.author}} asked this question: {{question.content}}
+  {{#if imageAndInfoIsShowing }}
+  <p>
+    <img src={{question.profilePictureURL}} alt="picture" {{action 'hideStuff'}}/>
+    <h4>More info about this author and/or Question: {{question.info}}</h4>
+  </p>
+  {{else}}
+  <button {{action 'showStuff'}}>Show cool stuff</button>
+</li>
