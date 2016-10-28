@@ -1,0 +1,9 @@
+header {
+  margin: 10px;
+  padding: 10px;
+}
+
+.question {
+  font-family: monospace;
+  font-size: 20px;
+}

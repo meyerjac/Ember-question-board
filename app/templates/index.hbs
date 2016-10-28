@@ -1,0 +1,11 @@
+<h2>Welcome to immediAnswer!</h2>
+
+<h3>I hope you enjoy this application and use it the way it was intended to be used!</h3>
+
+<h1>QUESTIONS:</h1>
+
+<ul>
+  {{#each model as |question|}}
+  <li>{{question.author}} asked this question: <span class= "question"> {{question.content}}</span></li>
+  {{/each}}
+</ul>
