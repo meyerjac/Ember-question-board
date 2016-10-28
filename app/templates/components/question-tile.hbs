@@ -1,4 +1,5 @@
-<li>{{question.author}} asked this question: {{question.content}}
+<li>
+  {{#link-to 'question' question.id}}{{question.author}} asked this question: {{question.content}}{{/link-to}}
   {{#if imageAndInfoIsShowing }}
   <p>
     <img src={{question.profilePictureURL}} alt="picture" {{action 'hideStuff'}}>
@@ -7,5 +8,4 @@
   {{else}}
   <button {{action 'showStuff'}}>Show cool stuff</button>
   {{/if}}
-  {{update-question question=question update="update"}}
 </li>
