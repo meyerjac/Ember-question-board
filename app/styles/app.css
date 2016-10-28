@@ -46,3 +46,9 @@ button:hover {
 .yo:hover {
  background-color: red;
 }
+
+
+#wellLine {
+  font-size: 20px;
+  color: black;
+}
