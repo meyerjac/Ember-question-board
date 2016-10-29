@@ -13,5 +13,15 @@
   "content": "how much does usain bolt make in a year?",
   "profilePictureURL": "http://www.dailyastorian.com/storyimage/DA/20150423/ARTICLE/150429827/EP/1/1/EP-150429827.jpg&MaxW=600",
   "info": "I am interested yo"
-    }]
-  }
+  }],
+  
+  "answers": [{
+    "author": "jackson",
+    "reponse": "great question, the answer is",
+    "confidence": "I am very confident in this answer"
+  }, {
+    "author": "megan",
+    "reponse": "terrible  question, the answer is",
+    "confidence": "I am not very confident in this answer"
+  }]
+}

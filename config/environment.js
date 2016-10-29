@@ -13,10 +13,10 @@ module.exports = function(environment) {
       }
     },
     firebase:  {
-    apiKey: "AIzaSyA1kn-1tdGfRn47jTnWu4OILc-gG85vEtA",
-    authDomain: "questions-24797.firebaseapp.com",
-    databaseURL: "https://questions-24797.firebaseio.com",
-    storageBucket: "questions-24797.appspot.com",
+      apiKey: "AIzaSyA1kn-1tdGfRn47jTnWu4OILc-gG85vEtA",
+      authDomain: "questions-24797.firebaseapp.com",
+      databaseURL: "https://questions-24797.firebaseio.com",
+      storageBucket: "questions-24797.appspot.com",
   },
 
     APP: {

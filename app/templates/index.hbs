@@ -5,7 +5,7 @@
 <h2>QUESTIONS:</h2>
 
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
   <div class="well">
     {{question-tile question=question destroyQuestion="destroyQuestion"}}
   </div>
@@ -13,3 +13,14 @@
 </ul>
 
 {{new-question saveQuestion5="saveQuestion6"}}
+
+<h2>all Answers</h2>
+
+<ul>
+  {{#each model.answers as |answer|}}
+  <li>{{answer.author}} -{{answer.reponse}} - {{answer.confidence}}
+  </li>
+  {{/each}}
+</ul>
+
+{{new-answer saveAnswer="saveAnswer"}}
