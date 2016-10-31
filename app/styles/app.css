@@ -13,9 +13,12 @@ header {
   font-family: 'Roboto Slab', serif;
   font-size: 30px;
     border-radius: 4px;
-
 }
 
+.index {
+  margin: 20px;
+  padding: 15px;
+}
 #compName {
   font-size: 150px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -51,4 +54,8 @@ button:hover {
 #wellLine {
   font-size: 20px;
   color: black;
+}
+
+#title {
+  font-size: 50px;
 }
