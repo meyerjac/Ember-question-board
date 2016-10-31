@@ -8,15 +8,16 @@ export default Ember.Component.extend({
     },
 
 
-    saveAnswer() {
-      console.log('hello');
-     var params = {
-       author: this.get('author'),
-       reponse: this.get('reponse'),
-       confidence: this.get('confidence')
-     };
-     this.set('addNewAnswer', false);
-     this.sendAction('saveAnswer', params);
-   }
+        saveAnswer() {
+          console.log('hello');
+         var params = {
+           author: this.get('author'),
+           reponse: this.get('reponse'),
+           confidence: this.get('confidence'),
+           question: this.get('question')
+         };
+         this.set('addNewAnswer', false);
+         this.sendAction('saveAnswer', params);
+       }
   }
 });

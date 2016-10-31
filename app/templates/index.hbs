@@ -1,9 +1,6 @@
 <h1 id="compName">immediAnswer!</h1>
-
 <h3>please post or answer questions(s) below</h3>
-
 <h2>QUESTIONS:</h2>
-
 <ul>
   {{#each model.questions as |question|}}
   <div class="well">
@@ -11,16 +8,11 @@
   </div>
   {{/each}}
 </ul>
-
 {{new-question saveQuestion5="saveQuestion6"}}
 
-<h2>all Answers</h2>
-
-<ul>
-  {{#each model.answers as |answer|}}
-  <li>{{answer.author}} -{{answer.reponse}} - {{answer.confidence}}
-  </li>
-  {{/each}}
-</ul>
-
-{{new-answer saveAnswer="saveAnswer"}}
+<!-- <ul>
+{{#each model.answers as |answer|}}
+<li>{{answer.author}} -{{answer.reponse}} - {{answer.confidence}}
+</li>
+{{/each}}
+</ul> -->

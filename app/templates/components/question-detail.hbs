@@ -1,5 +1,12 @@
 <h1>{{question.author}}'s question: {{question.content}}</h1>
 <br>
-<p><img src={{question.profilePictureURL}} alt="picture"></p>
+<button {{action 'delete' question}}>Delete Question</button>
+<p><img src={{question.profilePictureURL}} alt="Picture from question"></p>
+<br>
+<h2> Answers: </h2>
 
-<button {{action 'delete' question}}>Delete</button>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
