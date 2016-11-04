@@ -7,9 +7,9 @@ export function mostAnswers(params) {
   if (numberOfAnswers >= 4) {
     return Ember.String.htmlSafe('<span class="lightbulb"> !!!</span>')
   } else if (numberOfAnswers >= 1) {
-    return Ember.String.htmlSafe('<span class="lightbulb"> ! </span>')
+    return Ember.String.htmlSafe('<span class="lightbulb"> !</span>')
   } else {
-    return Ember.String.htmlSafe('<span class="lightbulb"> NO ANSWERS YET</span>')
+    return Ember.String.htmlSafe('<span class="lightbulb glyphicon glyphicon-alert"> NO ANSWERS YET</span>')
   }
 }
 

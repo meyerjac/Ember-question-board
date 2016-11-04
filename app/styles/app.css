@@ -55,3 +55,8 @@ button:hover {
 li {
   padding-left: 30px;
 }
+
+.lightbulb {
+  float: right;
+  font-size: 25px;
+}
