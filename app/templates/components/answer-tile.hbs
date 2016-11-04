@@ -1,1 +1,6 @@
-<li>{{answer.reponse}} - {{answer.confidence}} - by {{answer.author}}</li>
+<div class="well">{{answer.reponse}} - {{answer.confidence}} - by {{answer.author}}
+  <p> <button  class="btn button btn-default btn-sm" {{action 'addToFavorites' answer}}>
+      <span class="glyphicon glyphicon-plus"></span> favorite this answer
+    </button>
+  </p>
+</div>
