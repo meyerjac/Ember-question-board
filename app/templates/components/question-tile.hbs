@@ -1,11 +1,13 @@
 <li><span id="wellLine">
-{{question.author}} asked this {{#link-to 'question' question.id}}question: {{/link-to}}{{question.content}}
+{{#link-to 'question' question.id}} {{question.author}} asked this question: {{question.content}}{{/link-to}}
 </span>
   {{#if imageAndInfoIsShowing }}
 
   <p>
     <img src={{question.profilePictureURL}} alt="picture" {{action 'hideStuff'}}>
-    <h4>More info about this author and/or Question: {{question.info}}</h4>
+    <h3>More info about this author and/or Question: <br>
+      <li><h4><span class="moreInfo">{{question.info}}</span></h4></li>
+    </h3>
   </p>
   {{else}}
   <br>

@@ -1,7 +1,6 @@
 body {
   background-color: #22969d;
 }
-
 a:hover {
    background-color: #22969d;
   text-decoration: underline;
@@ -14,7 +13,6 @@ header {
   font-size: 30px;
     border-radius: 4px;
 }
-
 .index {
   margin: 20px;
   padding: 15px;
@@ -25,37 +23,35 @@ header {
     color: #235081;
 
 }
-
 .question {
   font-family: monospace;
   font-size: 20px;
 }
-
 img {
   max-width: 200px;
   max-height: 200px;
 }
-
 button:hover {
     background-color: #235081; /* Green */
     transition-duration: 0.4s;
     border: 2px solid green
 }
-
 .well {
   background-color: 	#d4e5ff
 }
-
 .yo:hover {
  background-color: red;
 }
-
-
 #wellLine {
   font-size: 20px;
   color: black;
 }
-
 #title {
   font-size: 50px;
+}
+.moreInfo {
+  color: maroon;
+}
+li {
+  padding-left: 30px;
 }
