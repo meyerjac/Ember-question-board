@@ -5,7 +5,6 @@ export default Ember.Component.extend({
 
   actions: {
     addToFavorites(answer) {
-      console.log(answer)
       this.get('favoriteAnswers').add(answer);
     }
   }

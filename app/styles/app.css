@@ -60,3 +60,12 @@ li {
   float: right;
   font-size: 25px;
 }
+
+.favorite {
+  display: inline-flex;
+}
+
+.favnumba {
+  color: red;
+margin-right: 3px;
+}
