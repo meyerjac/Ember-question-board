@@ -10,7 +10,7 @@ export default Ember.Component.extend({
          var params = {
            author: this.get('author'),
            reponse: this.get('reponse'),
-           confidence: this.get('confidence'),
+           confidence: parseInt(this.get('confidence')),
            question: this.get('question')
          };
          this.set('addNewAnswer', false);
