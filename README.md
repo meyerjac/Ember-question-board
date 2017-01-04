@@ -7,7 +7,7 @@
 
 ## Description
 
-_This web application was built for a project I did for epicodus in the advanced javascript course. We demonstrated use of ember framework and integrating firebase database to store our realtime questions and answers_
+_This web application was built for a project I did for Epicodus in the Advanced JS course. We demonstrated use of the Ember.js framework and integrating firebase database to store our realtime questions and answers_
 
 ## Setup/Installation Requirements
 
